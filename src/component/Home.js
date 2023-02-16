@@ -14,8 +14,9 @@ const Home = () => {
                         <h1>{value.count}</h1>
                         <br/>
 
-                        <button onClick={value.handleIncrement}>+</button>
-                        <button onClick={value.handleDecrement}>-</button>
+                        <button onClick={value.handleIncrement}>Increment  </button>
+
+                        <button onClick={value.handleDecrement}>Decrement</button>
                     </div>
                 )
             }
